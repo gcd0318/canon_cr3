@@ -1,6 +1,6 @@
 # Describing the Canon Raw v3 (CR3) file format #
 
-##### version: 10may2025 
+##### version: 17sep2025 
 
 
 by Laurent Clévy (@Lorenzo2472.bsky.social)
@@ -9,9 +9,10 @@ by Laurent Clévy (@Lorenzo2472.bsky.social)
 
 ##### Wanted samples:
 
-- R1 craw/dpraw/heif
-- R50 V raw/craw/heif
-- V1 raw/craw/heif
+- C50 craw/heif
+- R1 craw/heif
+- R50 V craw/heif
+- V1 craw/heif
 
 
 ##### Contributors: 
@@ -1345,7 +1346,7 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | modelId | name | releaseDate | sensorSize | sensorType | ImageProc |
 | ------- | ---- | ----------- | ---------- | ---------- | --------- |
 | 0x00000412 | EOS M50 / Kiss M | 04/2018 | APS-C | CMOS | Digic 8 |
-| 0x80000424 | EOS R                      |5/09/2018| FF| CMOS| Digic 8 |
+| 0x80000424 | EOS R            |5/09/2018| FF| CMOS| Digic 8 |
 | 0x00000805 | PowerShot SX70 HS | 09/2018| 1/2.3"| BSI-CMOS|Digic 8 |
 | 0x80000433 | EOS RP | 14/02/2019 | FF | CMOS |Digic 8 |
 | 0x80000436 | EOS Rebel SL3 / 250D / Kiss X10 | 04/2019 | APS-C | CMOS |Digic 8 |
@@ -1360,6 +1361,7 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | 0x80000453 | EOS R6 | 9/07/2020 | FF | CMOS |DigicX |
 | 0x80000468 | EOS M50 Mark II / Kiss M2 | 10/2020 | APS-C | CMOS |Digic8 |
 | 0x80000450 | EOS R3 | 14/04/2021 | FF | BSI-CMOS |DigicX |
+| 0x40000218 | EOS R5 C | 19/01/2022 | FF | CMOS |DigicX |
 | 0x80000464 | EOS R7 | 24/05/2022 | APS-C | CMOS |DigicX |
 | 0x80000465 | EOS R10 | 24/05/2022 | APS-C | CMOS |DigicX |
 | 0x80000481 | EOS R6 Mark II | 2/11/2022 | FF | CMOS |DigicX |
@@ -1370,6 +1372,8 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | 0x80000496 | EOS R5 Mark II | 19/07/2024 | FF | BSI-CMOS |DigicX+Digic Acc. |
 | 0x80000497 | PowerShot V1 | 26/03/2025 | APS-C | CMOS |DigicX |
 | 0x80000516 | Canon EOS R50 V | 26/03/2025 | APS-C | CMOS |DigicX |
+| 0x40000227 | Canon EOS C50 | 9/09/2025 | FF | CMOS |Digic DV7 |
+
  
 ## Samples 
 
