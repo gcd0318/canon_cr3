@@ -2,7 +2,7 @@
 
 # Inside Canon High Efficiency Image File format
 
-2jan2023
+3oct2024
 
 
 
@@ -278,23 +278,20 @@ sensorInfo(w=5568, h=3708, lb=84, tb=50, rb=5555, bb=3697)
 | 0x80000481 | EOS R6 Mark II | 11/2022 | FF | CMOS |Digic X |
 | 0x80000487 | EOS R8 | 8/02/2023 | FF | CMOS |Digic X |
 | 0x80000480 | EOS R50 | 8/02/2023 | APS-C | CMOS |Digic X |
+| 0x80000495 | EOS R1 | 19/07/2024 | FF | BSI-CMOS |DigicX+Digic Acc. |
+| 0x80000496 | EOS R5 Mark II | 19/07/2024 | FF | BSI-CMOS |DigicX+Digic Acc. |
 
 ### Reference documents
 
-- ISO/IEC 14496-12 (ISO Base media file format) : https://mpeg.chiariglione.org/standards/mpeg-4/iso-base-media-file-format/text-isoiec-14496-12-5th-edition
-
+- ISO/IEC 14496-12 (ISO Base media file format) : https://mpeg.chiariglione.org/standards/mpeg-4/iso-base-media-file-format.html
 - ISO/IEC 23008-12:2017: HEIF : https://standards.iso.org/ittf/PubliclyAvailableStandards/c066067_ISO_IEC_23008-12_2017.zip
-
-- WD2 of ISO/IEC 14496-15 2013/AMD1 Enhanced support of HEVC and MVC+D : https://mpeg.chiariglione.org/standards/mpeg-4/carriage-nal-unit-structured-video-iso-base-media-file-format/wd-isoiec-14496
-
+- WD2 of ISO/IEC 14496-15 2013/AMD1 Enhanced support of HEVC and MVC+D : https://mpeg.chiariglione.org/standards/mpeg-4/carriage-nal-unit-structured-video-iso-base-media-file-format.html
 - Nokia HEIF site:  https://nokiatech.github.io/heif/technical.html
-
   
 
 ### Other links
 
 - Apple WWDC 2017 HEIF (jun 2017) : https://developer.apple.com/videos/play/wwdc2017/513/
-
 - Monkey takes a .heic (oct 2017): http://cheeky4n6monkey.blogspot.com/2017/10/monkey-takes-heic.html
 - Exiftool, Quicktime, HEVCConfig tag : https://exiftool.org/TagNames/QuickTime.html#HEVCConfig
 
@@ -303,6 +300,5 @@ sensorInfo(w=5568, h=3708, lb=84, tb=50, rb=5555, bb=3697)
 ### Related patents
 
 - Description of image composition with HEVC still image file format, https://patents.google.com/patent/US10298947B2/
-
 - Encapsulating images with vendor and proprietary information in a file, UK Patent Application 2573096, https://patentimages.storage.googleapis.com/9d/d2/93/55a2f022504d12/GB2573096A.pdf
 

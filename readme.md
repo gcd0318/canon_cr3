@@ -1,6 +1,6 @@
 # Describing the Canon Raw v3 (CR3) file format #
 
-##### version: 17sep2025 
+##### version: 6nov2025 
 
 
 by Laurent Clévy (@Lorenzo2472.bsky.social)
@@ -13,6 +13,7 @@ by Laurent Clévy (@Lorenzo2472.bsky.social)
 - R1 craw/heif
 - R50 V craw/heif
 - V1 craw/heif
+- R6 Mark III craw/heif
 
 
 ##### Contributors: 
@@ -1373,7 +1374,7 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | 0x80000497 | PowerShot V1 | 26/03/2025 | APS-C | CMOS |DigicX |
 | 0x80000516 | Canon EOS R50 V | 26/03/2025 | APS-C | CMOS |DigicX |
 | 0x40000227 | Canon EOS C50 | 9/09/2025 | FF | CMOS |Digic DV7 |
-
+| 0x80000518 | Canon EOS R6 Mark III | 06/11/2025 | FF | CMOS |DigicX |
  
 ## Samples 
 
