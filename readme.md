@@ -1,6 +1,6 @@
 # Describing the Canon Raw v3 (CR3) file format #
 
-##### version: 6nov2025 
+##### version: 16sep2026 
 
 
 by Laurent Clévy (@Lorenzo2472.bsky.social)
@@ -1366,8 +1366,9 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | 0x80000464 | EOS R7 | 24/05/2022 | APS-C | CMOS |DigicX |
 | 0x80000465 | EOS R10 | 24/05/2022 | APS-C | CMOS |DigicX |
 | 0x80000481 | EOS R6 Mark II | 2/11/2022 | FF | CMOS |DigicX |
-| 0x80000487 | EOS R8 | 8/02/2023 | FF | CMOS |DigicX |
 | 0x80000480 | EOS R50 | 8/02/2023 | APS-C | CMOS |DigicX |
+| 0x80000487 | EOS R8 | 8/02/2023 | FF | CMOS |DigicX |
+| 0x80000491 | Powershot V10 | 11/05/2023 | 1 inch | BSI-CMOS | DigicX ?|
 | 0x80000498 | EOS R100 | 24/05/2023 | APS-C | CMOS |Digic8 |
 | 0x80000495 | EOS R1 | 19/07/2024 | FF | BSI-CMOS |DigicX+Digic Acc. |
 | 0x80000496 | EOS R5 Mark II | 19/07/2024 | FF | BSI-CMOS |DigicX+Digic Acc. |
@@ -1376,6 +1377,7 @@ Subband data (0xff03) of lossy CR3 are LL3, HL3, LH3, HH3, HL2, LH2, HH2, HL1, L
 | 0x40000227 | Canon EOS C50 | 9/09/2025 | FF | CMOS |Digic DV7 |
 | 0x80000518 | Canon EOS R6 Mark III | 06/11/2025 | FF | CMOS |DigicX |
 | 0x80000517 | Canon EOS R6V| 13/05/2026 | FF | CMOS |DigicX |
+| 0x80000543 | Canon EOS R8 Mark II| 16/09/2026 | FF | CMOS |DigicX |
  
 ## Samples 
 
